@@ -1,0 +1,206 @@
+*{
+    font-family: Work Sans; 
+}
+
+/* NAV STYLE START */
+
+.gamer-logo-header{
+    font-size: 2.8125rem;
+    font-weight: 700;
+    /* color: #FF42A5;  */
+    color: black;
+}
+
+.gamer-logo-footer{
+    font-size: 2.8125rem;
+    font-weight: 700;
+    /* color: #FF42A5;  */
+    color: #FFF;
+}
+
+.nav-icon{
+    height: 1.5rem;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-menu ul li{
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.nav-special{
+    align-items: center;
+}
+
+
+.nav-special-box > li{
+    width: 16.375rem;
+    height: 3.5rem;
+    flex-shrink: 0; 
+    border-radius: 0.5rem;
+    background: red;
+}
+
+#nav-img{
+    width: 5.37756rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    padding-right: 1.25rem;
+}
+
+/* NAV STYLE END */
+
+/* BANNER 1 STYLE START */
+
+.banner-1{
+    /* display: flex; */
+    background-image: url("backgroud.png");
+    background-size: cover;
+}
+
+.banner-1-img{
+    height: 43.75rem; 
+    padding-right: 4.25rem;
+}
+
+/* .goat{
+    background-image: url("images/Group 14.png");
+    flex: wrap;
+} */
+
+/* BANNER 1 STYLE END */
+
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* ONLINE GAME STYLE START */
+
+.online-game{
+    text-align: center;
+}
+
+.card-collection{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    max-width: 22rem;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.online-game h1{
+    color: #0B0223; 
+    font-weight: 700; 
+    font-size: 3rem; 
+}
+
+.online-game p{
+    color: #534C64; 
+    font-size: 1.125rem; 
+    font-weight: 400; 
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* FOOTER SECTION STYLE START */
+
+.footer-logo-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7.5rem;
+}
+
+.footer-list ul{
+    color: #FFF; 
+    display: flex;
+    justify-content: center; 
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600; 
+
+}
+
+.footer-list ul li{
+    padding-right: 3.75rem;
+    list-style: none;
+    padding-top: 3.94rem;
+}
+
+
+.footer-logo-2 ul li{
+    list-style: none;
+    padding-right: 2.5rem;
+    padding-top: 3.5rem;
+}
+
+.footer-logo-2 ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.terms ul{
+    display: flex;
+    justify-content: center; 
+}
+
+.terms ul li{
+    list-style: none;
+    padding-right: 3.75rem;
+    padding-top: 4rem;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.terms p, .copyright{
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.12rem;
+    padding-bottom: 7.5rem;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer{
+    background: #0B0223;
+    /* margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px; */
+}
+/* .copyright> p{
+    padding-left: 46rem;
+    padding-right: 46rem;
+} */
+
+/* FOOTER SECTION STYLE END */
+
+
