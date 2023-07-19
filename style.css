@@ -175,6 +175,7 @@
     max-width: 22rem;
     padding: 0.75rem;
     text-align: left;
+    flex-wrap: wrap;
 }
 
 .online-game h1{
