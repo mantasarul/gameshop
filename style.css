@@ -118,9 +118,44 @@
     color: #534C64; 
     font-size: 1.125rem; 
     font-weight: 400; 
+    padding-bottom: 2.25rem;
+    padding-top: 1rem;
 }
 
+.icons, .icon-card{
+    display: flex;
+}
 
+.icons{
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    /* padding: 7rem 15.56rem; */
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+}
+
+.icon-card img{
+    width: 3.75rem;
+    height: 3.75rem;
+    flex-shrink: 0; 
+}
+
+.icon-card p{
+    color: #0B0223; 
+    font-size: 1.25rem; 
+    font-weight: 600; 
+    padding-left: 1rem;
+}
+
+.icon-card{
+    padding: 1.25rem;
+    border-radius: 3.125rem;
+    background: #FFF;
+    margin: 1.15rem;
+}
 
 
 /* --------------------------------------------------------------------------------------------------- */
